@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@800&display=swap');
+p {
+  font-family: 'Shippori Mincho B1', serif !important;
+}
+nav{
+  font-size: larger;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: green;
+}
+.icons {
+  width: 15% !important;
+  font-size: x-large;
+  
+}
+
+.btn-light {
+  background-color: white;
+  border: none;
+  padding: 1%;
+  border-radius: 0.25rem;
+}
+.navbar-toggler{
+  padding: 2% 1% !important;
+  font-weight: bolder;
+  font-size: 0.75rem !important;
+  background-color: green !important;
+
+}
+.sec1{
+  background-image: url("assets/Optimized-bg-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: scroll;
+}
+.sec2{
+  margin: 10vh;
+}
+
+
