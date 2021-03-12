@@ -1,45 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@800&display=swap');
-p {
-  font-family: 'Shippori Mincho B1', serif !important;
-}
-nav{
-  font-size: larger;
-}
-li {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-  color: green;
-}
-.icons {
-  width: 15% !important;
-  font-size: x-large;
-  
-}
-
-.btn-light {
-  background-color: white;
-  border: none;
-  padding: 1%;
-  border-radius: 0.25rem;
-}
-.navbar-toggler{
-  padding: 2% 1% !important;
-  font-weight: bolder;
-  font-size: 0.75rem !important;
-  background-color: green !important;
-
-}
-.sec1{
-  background-image: url("assets/Optimized-bg-img.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  background-attachment: scroll;
-}
-.sec2{
-  margin: 10vh;
-}
-
-
+    @import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+    .textresponsive {
+        font-family: 'Baskervville', serif !important;
+        font-size: calc(0.75rem +0.75*((100vw - 576px) /960));
+    }
+    
+    h1,
+    h2 {
+        font-size: calc(0.75rem +0.75rem*((100vw - 576px) /960));
+    }
+    
+    nav {
+        font-size: larger;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: green;
+    }
+    
+    .icons {
+        width: 15% !important;
+        font-size: x-large;
+    }
+    
+    .btn-light {
+        background-color: white;
+        border: none;
+        padding: 1%;
+        border-radius: 0.25rem;
+    }
+    
+    .navbar-toggler {
+        padding: 2% 1% !important;
+        font-weight: bolder;
+        font-size: 0.75rem !important;
+        background-color: green !important;
+    }
+    
+    .sec1 {
+        background-image: url("assets/Optimized-bg-img.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: scroll;
+        min-height: 75vh;
+    }
+    
+    .btn-success {
+        border: none;
+        padding: 2%;
+        border-radius: 0.25rem;
+    }
+    
+    .sec3 {
+        background-color: black !important;
+    }
+    
+    .review {
+        font-size: calc(0.5rem +0.25*((100vw - 576px) /960));
+    }
+    
+    .card {
+        border: none !important;
+    }
+    
+    .last {
+        background-image: url("assets/last_optimized_1_optimized.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: scroll;
+        height: 70vh;
+    }
+    
+    section {}
